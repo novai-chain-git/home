@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>Novai</title>
+		<link rel="shortcut icon" href="#" />
+		<style>
+			#load-box {
+				width: 100vw;
+				height: 100vh;
+				position: fixed;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				top: 0;
+				left: 0;
+				z-index: 10;
+				background: #0A0D14;
+			}
+
+			@-webkit-keyframes rotation {
+				from {
+					-webkit-transform: rotate(0deg);
+				}
+
+				to {
+					-webkit-transform: rotate(360deg);
+				}
+			}
+
+			#load-img {
+				width: 3rem;
+				height: 3rem;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-top: -1.5rem;
+				margin-left: -1.5rem;
+				-webkit-transform: rotate(360deg);
+				animation: rotation 2s linear infinite;
+				-moz-animation: rotation 2s linear infinite;
+				-webkit-animation: rotation 2s linear infinite;
+				-o-animation: rotation 2s linear infinite
+			}
+
+			#mo-loading-box {
+				width: 100%;
+				height: 100vh;
+				position: fixed;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				top: 0;
+				z-index: 10;
+				background-image: url(/static/image/loadback2.jpg);
+				background-size: 100%;
+				background-position: center bottom;
+				background-repeat: no-repeat;
+				overflow: hidden;
+				left: 0;
+			}
+
+			#mo-loading-box ul {
+				background-image: url(/static/image/loadinggo2.png);
+				background-size: 100%;
+				background-repeat: no-repeat;
+				height: .9375rem;
+				width: 60%;
+				position: absolute;
+				bottom: 35.2px;
+				left: 50%;
+				display: flex;
+				align-items: center;
+			}
+
+			#mo-loading-box ul li {
+				height: 60%;
+				background: linear-gradient(#ffffff, #cde1fd);
+				width: 0%;
+				border-radius: .3125rem;
+				animation: smalltobig linear 5s;
+				animation-fill-mode: forwards;
+			}
+
+			@keyframes smalltobig {
+				0% {
+					width: 0%;
+				}
+
+				100% {
+					width: 100%;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="app"></div>
+
+		<script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+		<script src="/static/js/awardRotate.js"></script>
+		<script src="/static/js/schedule.js"></script>
+		<script>
+			// if(window.location.href.indexOf("/game")!=-1){
+			//   $('#mo-loading-box').hide()
+			// }else{
+			//   $('#mo-loading-box').show()
+			// }
+		</script>
+	</body>
+
+</html>

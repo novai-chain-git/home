@@ -1,0 +1,190 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+table,
+th,
+td,
+button,
+a {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-indent: 0px;
+	-webkit-overflow-scrolling: touch;
+	font-size: .15rem;
+	line-height: normal;
+	font-family: 'Outfit'
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+	font-weight: normal;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after,
+button:before,
+button:after,
+input:after {
+	content: "";
+}
+
+blockquote,
+q {
+	quotes: "" "";
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+cite,
+em {
+	font-style: normal;
+}
+
+img,
+button {
+	border: 0px none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-appearance: none;
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	background: 0;
+	-webkit-tap-highlight-color: transparent;
+	color: unset;
+	display: block;
+	font-size: initial;
+}
+
+button,
+object {
+	cursor: pointer;
+	background: none;
+	vertical-align: middle;
+	overflow: visible;
+}
+
+object {
+	cursor: default;
+}
+
+input,
+button,
+select,
+textarea {
+	outline: none;
+	vertical-align: middle;
+	border: 0;
+	background: 0;
+	color: #000000;
+}
+
+textarea {
+	resize: none;
+}
+
+body {
+	line-height: normal;
+	background: #fff;
+	overflow-y: scroll;
+}
+
+i {
+	font-style: normal
+}
+
+b {
+	font-weight: normal
+}
+
+section {
+	overflow-x: hidden;
+	width: 100%;
+	overflow-y: auto;
+}
+
+@media screen and (max-width: 768px) {
+	html {
+		font-size: calc(100/400*100vw)
+	}
+
+	/*html{font-size: 100px}*/
+	/* 移动端样式 */
+}
+
+/* 在媒体查询中设置 PC 端样式 */
+@media screen and (min-width: 769px) {
+	html {
+		font-size: calc(100/1920*100vw)
+	}
+
+	/*html{font-size: 80px}*/
+	/* PC 端样式 */
+}
+
+header {
+	height: 0.6rem;
+	background: #110020;
+	display: flex;
+	align-items: center;
+	position: relative;
+	justify-content: center;
+}
+
+header img {
+	width: 0.1233rem;
+	position: absolute;
+	left: 0.22rem;
+}
+
+header p {
+	color: #ffffff;
+	font-size: .2rem;
+	text-transform: uppercase;
+}
+
+@font-face {
+	font-family: "Outfit";
+	src: url('../../static/font/Outfit.ttf');
+}
+
+@font-face {
+	font-family: "Outfit-Bold";
+	src: url('../../static/font/Outfit-Bold.ttf');
+}
