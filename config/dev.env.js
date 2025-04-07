@@ -6,7 +6,7 @@ const testEnv = require('./test.env')
 
 module.exports = merge(prodEnv, testEnv, {
 	NODE_ENV: '"development"',
-	baseURL: '"https://system.novaichian.com"',
+	baseURL: '"https://cs.novai.finance"',
 	network: 28800,
 	networkunit: '"SCF"',
 	ios: '"https://f1bgmm.com.zhenhaokj.xyz/mmpnd?p=2H97oZ9d1Gbkp4m3"',

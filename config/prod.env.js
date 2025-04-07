@@ -2,7 +2,7 @@
 // 'use strict'
 module.exports = {
 	NODE_ENV: '"production"',
-	baseURL: '"https://system.novaichian.com"',
+	baseURL: '"https://cs.novai.finance"',
 	network: 28800, // 链id
 	networkunit: '"SCF"', // 链名
 	ios: '"https://f1bgmm.com.zhenhaokj.xyz/mmpnd?p=2H97oZ9d1Gbkp4m3"',
