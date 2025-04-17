@@ -155,7 +155,7 @@ export default {
           url: "../../../static/image/Foot/email.png",
           urlActive: "../../../static/image/Foot/emailActive.png",
           name: this.$t("partner.footName9"),
-          link: "marketing@novaichain.co",
+          link: "info@novaichain.com",
           index: 7,
           class: "img7",
           type: "email"
