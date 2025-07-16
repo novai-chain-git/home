@@ -5,9 +5,9 @@ module.exports = {
   baseURL: '"https://cs.novai.finance"',
   network: 28800, // 链id
   networkunit: '"SCF"', // 链名
-  ios: '"https://dnf8qp5ds93ne.cloudfront.net/25sqiy"',
+  ios: '"https://d20hmnmc7tn5tp.cloudfront.net/55gnjm"',
   //iosOverseas: '"https://4c9ixn.bmoi.9heng.vip/mmpnd?p=2H97oZ9d1Gbkp4m3"',
-  iosOverseas: '"https://dnf8qp5ds93ne.cloudfront.net/25sqiy"',
+  iosOverseas: '"https://d20hmnmc7tn5tp.cloudfront.net/55gnjm"',
   android:
     '"https://drag2.s3.ap-east-1.amazonaws.com/pocket/Npay-release-1.0.1.apk"'
 };
