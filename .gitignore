@@ -25,3 +25,4 @@ auto-imports.d.ts
 *.njsproj
 *.sln
 *.sw?
+/build
